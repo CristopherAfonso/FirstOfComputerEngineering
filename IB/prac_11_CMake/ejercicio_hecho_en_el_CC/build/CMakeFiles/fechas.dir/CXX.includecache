@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/usuario/practicas/practicas_ib/ib_p11_CMake/ib-practica11-oop-cmake-CristopherAfonso/ejercicio_hecho_en_el_CC/src/fechas.cc
+fechas.h
+/home/usuario/practicas/practicas_ib/ib_p11_CMake/ib-practica11-oop-cmake-CristopherAfonso/ejercicio_hecho_en_el_CC/src/fechas.h
+
+/home/usuario/practicas/practicas_ib/ib_p11_CMake/ib-practica11-oop-cmake-CristopherAfonso/ejercicio_hecho_en_el_CC/src/fechas.h
+iostream
+-
+string
+-
+sstream
+-
+cstring
+-
+cmath
+-
+vector
+-
+fstream
+-
+
+/home/usuario/practicas/practicas_ib/ib_p11_CMake/ib-practica11-oop-cmake-CristopherAfonso/ejercicio_hecho_en_el_CC/src/functions_fechas.cc
+fechas.h
+/home/usuario/practicas/practicas_ib/ib_p11_CMake/ib-practica11-oop-cmake-CristopherAfonso/ejercicio_hecho_en_el_CC/src/fechas.h
+

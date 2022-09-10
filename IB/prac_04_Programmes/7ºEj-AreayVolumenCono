@@ -1,0 +1,34 @@
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <cmath>
+
+int main() {
+    const double kPiNumero = 3.141592;
+    double AreaCono, VolumenCono, Altura, Generatriz, Radio;
+    std::string SAltura, SRadio;
+
+    std::cout << "Hola, soy un programa que calcula el Área y el Volumen de";
+    std::cout << " un cono, para ello me tienes que decir cuales medidas quieres que tenga dicho cono." << std::endl;
+    std::cout << "Interpretaré que todos los datos que me vas a dar están en metros, tenlo en cuenta." << std::endl;
+    std::cout << " " << std::endl;
+    std::cout << "Te voy a pedir dos datos sobre el cono." << std::endl << std::endl;
+
+    std::cout << "El 1º, su Radio, ¿cuan largo quieres que sea? ";
+    getline (std::cin, SRadio);
+    std::stringstream(SRadio) >> Radio;
+
+    std::cout << "El 2º, su altura, ¿cuan alto quieres que sea? ";
+    getline (std::cin, SAltura);
+    std::stringstream(SAltura) >> Altura;
+
+
+    Generatriz = sqrt((Altura*Altura)+(Radio*Radio));
+    AreaCono = kPiNumero*Radio*(Radio+Generatriz);
+    VolumenCono = (kPiNumero*Radio*Radio*Altura)/3;
+
+    std::cout << "El Área del cono son: " << AreaCono << " metros cuadrado." << std::endl;
+    std::cout << "El volumen del cono son: " << VolumenCono << " metros cúbicos." <<std::endl;
+
+    return 0;
+}

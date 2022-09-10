@@ -1,0 +1,3 @@
+/home/usuario/practicas/practicas_ib/ib_p11_CMake/ib-practica11-oop-cmake-CristopherAfonso/ejercicio_hecho_en_el_CC/build/CMakeFiles/rebuild_cache.dir
+/home/usuario/practicas/practicas_ib/ib_p11_CMake/ib-practica11-oop-cmake-CristopherAfonso/ejercicio_hecho_en_el_CC/build/CMakeFiles/fechas.dir
+/home/usuario/practicas/practicas_ib/ib_p11_CMake/ib-practica11-oop-cmake-CristopherAfonso/ejercicio_hecho_en_el_CC/build/CMakeFiles/edit_cache.dir

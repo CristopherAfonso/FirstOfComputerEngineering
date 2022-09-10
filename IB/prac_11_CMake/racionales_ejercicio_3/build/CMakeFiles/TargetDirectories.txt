@@ -1,0 +1,3 @@
+/home/usuario/practicas/practicas_ib/ib_p11_CMake/ib-practica11-oop-cmake-CristopherAfonso/racionales_ejercicio_3/build/CMakeFiles/rebuild_cache.dir
+/home/usuario/practicas/practicas_ib/ib_p11_CMake/ib-practica11-oop-cmake-CristopherAfonso/racionales_ejercicio_3/build/CMakeFiles/racionales.dir
+/home/usuario/practicas/practicas_ib/ib_p11_CMake/ib-practica11-oop-cmake-CristopherAfonso/racionales_ejercicio_3/build/CMakeFiles/edit_cache.dir

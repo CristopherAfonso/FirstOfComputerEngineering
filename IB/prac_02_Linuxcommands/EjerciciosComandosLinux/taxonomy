@@ -1,0 +1,40 @@
+#!/bin/bash
+#
+# This is a comment
+# To know more about bash shell programming, see https://linuxhint.com/30_bash_script_examples/
+# And also 
+#
+echo "This script creates a directory tree whith root located at ~/ejercicios_comandos_linux/generos_literarios"
+
+mkdir -pv ejercicios_comandos_linux 
+cd ejercicios_comandos_linux
+mkdir -pv generos_literarios
+mv ../*.txt ejercicios_comandos_linux/generos_literarios
+mkdir -v generos_literarios/narrativo
+mkdir -v generos_literarios/lírico
+mkdir -v generos_literarios/dramático
+mkdir -v generos_literarios/narrativo/prosa
+mkdir -v generos_literarios/narrativo/verso
+mkdir -v generos_literarios/lírico/oda
+mkdir -v generos_literarios/lírico/elegía
+mkdir -v generos_literarios/lírico/soneto
+mkdir -v generos_literarios/lírico/himno
+mkdir -v generos_literarios/lírico/balada
+mkdir -v generos_literarios/lírico/canción
+mkdir -v generos_literarios/lírico/égloga
+mkdir -v generos_literarios/lírico/sátira
+mkdir -v generos_literarios/dramático/comedia
+mkdir -v generos_literarios/dramático/tragedia
+mkdir -v generos_literarios/dramático/drama
+mkdir -v generos_literarios/dramático/entremés
+mkdir -v generos_literarios/dramático/farsa
+mkdir -v generos_literarios/narrativo/prosa/novela
+mkdir -v generos_literarios/narrativo/prosa/cuento
+mkdir -v generos_literarios/narrativo/prosa/fábula
+mkdir -v generos_literarios/narrativo/prosa/leyenda
+mkdir -v generos_literarios/narrativo/prosa/ensayo
+mkdir -v generos_literarios/narrativo/verso/epopeya
+mkdir -v generos_literarios/narrativo/verso/romance
+mkdir -v generos_literarios/narrativo/verso/cantar_de_gesta
+cd generos_literarios
+tree -d
